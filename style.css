@@ -1,0 +1,167 @@
+* {
+  background-color: #03f8fc;
+  margin-top: 20px;
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  color: #0c0b0b;
+  margin-bottom: 10px;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.by {
+  font-size: 23px;
+  text-align: right;
+  padding-right: 550px;
+  margin-bottom: 30px;
+  animation-duration: 0.9s;
+  animation-name: slidein;
+}
+
+a {
+  background-color: transparent;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.2s ease 0s;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: transparent;
+  color: #000;
+  border-color: transparent;
+  border: 1px solid #f9f9f9;
+  border-radius: 4px;
+}
+
+hr {
+  width: 1500px;
+}
+
+.first-para-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.first-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0c0b0b;
+  padding: 4px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hr__2 {
+  width: 1500px;
+}
+
+.second-para-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.second-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0c0b0b;
+  padding: 4px;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.third-para-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.third-para {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0c0b0b;
+  padding: 4px;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.fourth-para-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.fourth-para {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0c0b0b;
+  padding: 4px;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.ending__line {
+  font-size: 30px;
+  text-align: center;
+}
